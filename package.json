@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "bunx @11ty/eleventy --formats=mdx",
+    "serve": "bunx @11ty/eleventy --serve --formats=mdx"
+  },
+  "dependencies": {
+    "@mdx-js/node-loader": "^3.1.0",
+    "react-dom": "^18.3.1"
+  }
+}
