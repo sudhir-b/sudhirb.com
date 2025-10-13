@@ -31,6 +31,9 @@ export default function (eleventyConfig) {
   // Copy CSS file to output
   eleventyConfig.addPassthroughCopy("styles.css");
 
+  // Layout aliases
+  eleventyConfig.addLayoutAlias("base", "base.11ty.js");
+
   // Directory configuration
   return {
     dir: {
